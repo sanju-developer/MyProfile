@@ -1,0 +1,25 @@
+.flip-card-container {
+  position: relative;
+  height: 500px;
+
+  .back {
+    background-image: url(../../../assets/images/profile.jpg);
+  }
+  .front,
+  .back {
+    background-size: cover;
+  }
+  .c {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+    width: 45ch;
+    left: 10ch;
+    height: 60ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  }
+}

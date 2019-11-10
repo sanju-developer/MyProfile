@@ -1,0 +1,26 @@
+@import '../../assets/colors.scss';
+
+.skills-container {
+  position: relative;
+  top: 100px;
+
+  .bigAvatar {
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 0px;
+  }
+  .text-on-hover-description:hover {
+    color: $secondary;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .skills-container {
+    .bigAvatar {
+      position: relative;
+      width: 100%;
+      height: 60%;
+      top: 0;
+    }
+  }
+}

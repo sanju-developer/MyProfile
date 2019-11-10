@@ -1,0 +1,46 @@
+@import '../../assets/colors.scss';
+
+.WorkExp-container {
+  position: relative;
+  top: 100px;
+  padding-bottom: 50px;
+
+  .bigAvatar {
+    width: 35%;
+    height: 40%;
+    position: relative;
+    top: 0px;
+  }
+  .yellow {
+    border: 1px solid $darkYellow;
+    padding: 5px 15px;
+    color: $darkYellow;
+  }
+  .yellow:hover {
+    background-color: $lightYellow;
+  }
+
+  .project-card {
+    background: $lightYellow;
+    padding: 16px;
+    border-radius: 8px;
+    border: 4px solid $darkYellow;
+    color: #616161;
+    margin: 20px auto;
+
+    .project-title {
+      color: $darkYellow;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .WorkExp-container {
+    .bigAvatar {
+      position: relative;
+      width: 100%;
+      height: 60%;
+      top: 0;
+    }
+  }
+}
