@@ -59,5 +59,9 @@ CustomButton.propTypes = {
   history: PropTypes.object.isRequired,
   btnName: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
-  isMobile: PropTypes.bool.isRequired,
+  isMobile: PropTypes.any,
+}
+
+CustomButton.defaultProps = {
+  isMobile: undefined,
 }

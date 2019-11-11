@@ -14,7 +14,7 @@ class LandingPage extends React.PureComponent {
           <Grid item xs={12} sm={5}>
             <FlipedCard />
           </Grid>
-          <Grid item xs={12} sm={7}>
+          <Grid item xs={12} sm={7} className="mobile-part-chart">
             <Chart />
             <CustomButton btnName="profile" type="default" />
           </Grid>
