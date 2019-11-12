@@ -93,7 +93,7 @@ class Chart extends React.PureComponent {
           Visits per months
         </Box>
         <LineChart
-          width={this.state.isMobile ? 400 : 700}
+          width={this.state.isMobile ? 370 : 700}
           height={350}
           data={data}
           left="-50px"
